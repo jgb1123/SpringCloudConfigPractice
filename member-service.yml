@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: jgb
+    password: '{cipher}AQCc6bBpLC1QdPPHIZ5rlu/U3tit77r25sZLoFRL3P7M5SbugindlZmXgyE/CP5dJYhLzdvEpgLmP9ag8Z3o2BhhifSVyiYW1iHO700Ynw7LgKjWf2NrJdisgHUVDeh9XcETR5MczehTwbq4DYWu3PKmtkCnLUXKH2ZETp86rSVFtp/3IxPE5KhXMXJ4sALfSgi9cbpuWdsSUPvAxtFp+G7WQHEee28H0cqwEgG/GrG/gHR122VLwOBSy+6ZKbejKbAbewmqL4I0+X8tHHQERpsywVf65Fiwnluoz6Gq9SFfg225gAAIMv+v1zm9UCwbxHIRyE1s3TuZ5mlBSfmIY5R1079j23bRqa/Q/b9EDIYv+Hp4uHwUpwckGjhtF/+29Fg='
+
+jwt:
+  secret: '{cipher}AQANvtNh6W/JV2CkVWbenrCtrAQ/VZZWDb8bKipV9UQ/o7GzjaIjTWI74Nxp8wWDDnvfAEaxzkOS14Ag9KOzVak3rev1n8JU9TVf75QL/HBG9EmNDvtvv7rY1seBmA1e+51735KgXXyHB4TnkNnSTQ5AyWBF8m79l40lvrfvoJviA1szmPF53sIViYTlki61KZ1BEtkxwzll1TsM0Yu0MA1Zc9sk3mConN8/4HbmR9RcB31vQ9any3F4RppaUPsEgUCsNwKdO5TEwxV4iupynJaXo8WVKNSX+Jq9bQ+de5wBbLTqVP+umlP3jyK7FSrIeSx4dwWMdtt9qWh57Eiohxo8u9FrLmnr5sjbjkZ0INNLO4g0EY1k6JPxapLzJ6YxmpiOSLIymBHXnE1+04EL84kQzLk3HYZPtBWc88GWHCJxNg=='
+  access-token-expiration-minutes: 30
+  refresh-token-expiration-minutes: 600
+
+gateway:
+  ip: 127.0.0.1
