@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:xe
+    url: jdbc:oracle:thin:@oracledb:1521:xe
     username: jgb
     password: '{cipher}AQCc6bBpLC1QdPPHIZ5rlu/U3tit77r25sZLoFRL3P7M5SbugindlZmXgyE/CP5dJYhLzdvEpgLmP9ag8Z3o2BhhifSVyiYW1iHO700Ynw7LgKjWf2NrJdisgHUVDeh9XcETR5MczehTwbq4DYWu3PKmtkCnLUXKH2ZETp86rSVFtp/3IxPE5KhXMXJ4sALfSgi9cbpuWdsSUPvAxtFp+G7WQHEee28H0cqwEgG/GrG/gHR122VLwOBSy+6ZKbejKbAbewmqL4I0+X8tHHQERpsywVf65Fiwnluoz6Gq9SFfg225gAAIMv+v1zm9UCwbxHIRyE1s3TuZ5mlBSfmIY5R1079j23bRqa/Q/b9EDIYv+Hp4uHwUpwckGjhtF/+29Fg='
 
