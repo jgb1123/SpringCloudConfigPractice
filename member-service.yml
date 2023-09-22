@@ -11,4 +11,4 @@ jwt:
   refresh-token-expiration-minutes: 600
 
 gateway:
-  ip: 127.0.0.1
+  ip: 127.18.0.6
